@@ -1,0 +1,34 @@
+{
+  "name": "GlassPad Web sound",
+  "short_name": "GP Web sound",
+  "id": "/glasspad-web-sound",
+  "description": "Frozen copy of GlassPad (GP Test 6.05, 20 Oct 2026) playing the old Web sound.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "display_override": [
+    "fullscreen",
+    "standalone"
+  ],
+  "orientation": "any",
+  "background_color": "#030523",
+  "theme_color": "#0f2a1f",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
